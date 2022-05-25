@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+int a=5;
+int b=2;
+
+void add()
+{
+int sum;
+sum=a+b;
+printf("the sum of a and b is %d\n",sum);
+}
+int main()
+{
+   add();
+   return 0;
+}
+
+
+output:
+the sum of a and b is 7
+
+Assignment:
+
+#include <stdio.h>
+
+int a=5;
+int b=2;
+
+void diff()
+{
+int diff;
+diff=a-b;
+printf("the diff of a and b is %d\n",diff);
+}
+int main()
+{
+   diff();
+   return 0;
+}
+
+
+output:
+the diff of a and b is 3
+
