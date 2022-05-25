@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    float c;
+    a=5;
+    b=2;
+    c=a+b;
+    printf("the addition of %d and %d is %.2f\n",a,b,c);
+    c=a-b;
+    printf("the subraction of %d and %d is %.2f\n",a,b,c);
+    c=a*b;
+    printf("the multiplication of %d and %d is %.2f\n",a,b,c);
+    c=a/b;
+    printf("the integer division of %d and %d is %.2f\n",a,b,c);
+    c=(float)a/b;
+    printf("the real division of %d and %d is %.2f\n",a,b,c);
+    
+    
+    return 0;
+}
+
+output:
+the addition of 5 and 2 is 7.00
+the subraction of 5 and 2 is 3.00
+the multiplication of 5 and 2 is 10.00
+the integer division of 5 and 2 is 2.00
+the real division of 5 and 2 is 2.50

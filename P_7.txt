@@ -1,0 +1,55 @@
+#include <stdio.h>
+
+int main()
+{
+   int a=1;
+   printf("a's value is %d\n",a++);
+   printf("a's value is %d\n",a);
+   
+   a=1;
+   printf("a's value is %d\n",++a);
+   printf("a's value is %d\n",a);
+   
+   a=1;
+   printf("a's value is %d\n",a--);
+   printf("a's value is %d\n",a);
+   
+    
+   a=1;
+   printf("a's value is %d\n",--a);
+   printf("a's value is %d\n",a);
+    
+    return 0;
+}
+
+output:
+a's value is 1
+a's value is 2
+a's value is 2
+a's value is 2
+a's value is 1
+a's value is 0
+a's value is 0
+a's value is 0
+
+TYPECASTING:
+
+#include <stdio.h>
+
+int main()
+{
+   int a,b;
+   float c;
+   a=5;
+   b=2;
+   c=a/b;
+   printf("value of c is %.2f\n",c);
+   c=(float)a/b;
+   printf("value os c is %.2f\n",c);
+    
+    return 0;
+}
+
+output:
+value of c is 2.00
+value os c is 2.50
