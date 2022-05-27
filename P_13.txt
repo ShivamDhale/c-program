@@ -1,0 +1,82 @@
+#include <stdio.h>
+
+int main()
+{
+    int i,j;
+    int no1[3][4],no2 [3][4];
+    printf("Enter the elements of 3x4 array no1\n");
+    for(i=0;i<3;i++)
+    for(j=0;j<4;j++)
+    scanf("%d", &no1 [i][j]);
+    
+    printf("Enter the elements of 3x4 array no2\n");
+    for(i=0;i<3;i++)
+    for(j=0;j<4;j++)
+    scanf("%d", &no2 [i][j]);
+    
+    printf("The 3x4 array no1 is\n");
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<4;j++)
+        printf ("%3d", no1[i][j]);
+        printf("\n");
+    }
+    printf("The 3x4 array no2 is\n");
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<4;j++)
+        printf ("%3d", no2[i][j]);
+        printf("\n");
+    }
+    
+    printf("The sum of no1 and no2 is\n");
+    for (i=0;i<3;i++)
+    {
+        for (j=0;j<4;j++)
+        printf("%3d",(no1[i][j] + no2[i][j]));
+        printf("\n");
+    }
+    return 0;
+}
+
+
+OUTPUT:-
+
+Enter the elements of 3x4 array no1
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+Enter the elements of 3x4 array no2
+1
+2
+3
+5
+6
+7
+8
+9
+10
+11
+12
+13
+The 3x4 array no1 is
+  1  2  3  4
+  5  6  7  8
+  9 10 11 12
+The 3x4 array no2 is
+  1  2  3  5
+  6  7  8  9
+ 10 11 12 13
+The sum of no1 and no2 is
+  2  4  6  9
+ 11 13 15 17
+ 19 21 23 25
